@@ -3,7 +3,7 @@
 ## Introduction
 This document provides an overview of the chiselled / chiseled Ubuntu image for .Net
 ## Literature Review
-Before we learn about chiselled Ubuntu, we need to about Distroless Ubuntu and Chisel.
+Before we discuss about chiselled Ubuntu, we need to learn about Distroless Ubuntu and [**Chisel**](https://github.com/canonical/chisel).
 
 **Distroless Ubuntu**, inspired by Google's Distroless concept, is a minimalistic version of Ubuntu. Like Google's Distroless, it has no non-essential elements such as the package manager, bash, and non-essential packages.
 
@@ -14,7 +14,7 @@ It is built on the idea of **package slices** - minimal, complimentary and loose
 
 
 
-**Chiselled Ubuntu for .NET** is a afford from canonical and Microsoft to build small, safe distroless image based on Ubuntu for .NET. It is similar to conventional [distroless](https://hackernoon.com/distroless-containers-hype-or-true-value-2rfl3wat), but based on Ubuntu and `.deb` packages sliced with chisel to optimize.
+**Chiselled Ubuntu for .NET** is a new approach from canonical and Microsoft to build small, safe distroless image based on Ubuntu for .NET. It is similar to conventional [distroless](https://hackernoon.com/distroless-containers-hype-or-true-value-2rfl3wat), but based on Ubuntu and `.deb` packages sliced with chisel to optimize.
 Pros: [^2]
 1. No Shell.
 2. No package manager.
