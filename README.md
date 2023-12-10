@@ -3,8 +3,6 @@
 ## Introduction
 This document provides an overview of the chiselled / chiseled Ubuntu image for .Net
 ## Literature Review
-
-### 1. Chiselled Ubuntu
 Before we learn about chiselled Ubuntu, we need to about Distroless Ubuntu and Chisel.
 
 **Distroless Ubuntu**, inspired by Google's Distroless concept, is a minimalistic version of Ubuntu. Like Google's Distroless, it has no non-essential elements such as the package manager, bash, and non-essential packages.
@@ -24,7 +22,6 @@ Pros: [^2]
 4. Non-root (app) User by default. (See following screenshot)
 ![nonroot User by default](/user-screenshot.png?raw=true "nonroot User by default")
 
-### 2. CBL Mariner 2 Distroless
 Useful Links:
 1. [Announcing .NET Chiseled Containers](https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/)
 2. [Canonical announces the general availability of chiselled Ubuntu containers](https://canonical.com/blog/chiselled-ubuntu-ga)
